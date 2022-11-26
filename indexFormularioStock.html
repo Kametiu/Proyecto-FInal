@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="indexStock.css" >
+        <title>Control de Stock</title>
+    </head>
+      
+    <body>
+        <script src="indexStock.js"></script>
+    
+    <footer>
+      <button type="button" onclick="mostrar();">Ingresar Productos</button>
+    </footer>  
+     
+    
+        <form id="form1" style="display: none;">
+          <fieldset>
+            <legend>Ingresar Nuevo Producto</legend>
+            <br><br>
+            <label>Codigo de Barras</label>
+            <input type="text" id="codigoBarra">
+            <label>Descripcion</label>
+            <input type="text" id="descripcion">
+            <br><br>
+            <label>Precio de Venta</label>
+            <input type="text" id="precio">
+            <label>Vencimiento</label>
+            <input type="text" id="vencimiento">
+            <label>Cantidad</label>
+            <input type="text" id="cantidad">
+            <br><br>
+            <label>Seleccione Categoria</label>
+            <select>
+              <option>bebidas</option>
+              <option>almacen</option>
+              
+              
+            </select>
+            <br><br>
+            <button type="button" onclick="ingresar()">Ingresar</button>
+            <button type="button" onclick="">Borrar</button>
+            <button type="button" onclick="">Cerrar</button>
+            
+            
+            
+          </fieldset>
+          
+          
+          
+        </form>
+      
+        <table border="auto" width="1350">
+          
+               
+               
+               <th>CODIGO DE BARRAS</th>
+               <th>DESCRIPCION</th>
+               <th>PRECIO</th>
+               <th>VENCIMIENTO</th>
+               <th>STOCK </th>
+               <tr>
+          
+               
+
+
+               
+
+             
+            
+          
+          
+        </table>
+        <ol class="bebidas">
+
+        </ol>  
+
+        <ol class="almacen">
+
+        </ol>
+    </body>
+    </html>

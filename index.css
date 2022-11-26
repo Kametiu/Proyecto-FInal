@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(88, 81, 81);
+}
+nav  {
+  display: flex;
+  justify-content: space-evenly;
+ 
+}
+
+.a{
+  text-decoration: none;
+  font-size: 200%;
+  color: black;
+}
+
+h2 {
+  font-size: 200%;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 1000%;
+}
+
+.carrousel {
+  margin-left: 20%;
+  display: flex;
+  width: 50%;
+  height: auto;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+
+
+}
+
+.carrousel div h3 {
+  
+  justify-content: center;
+  
+}
+.carrousel div{ 
+  
+  flex: 0 0 100%;
+  width: 20%;
+  object-fit: cover;
+  scroll-snap-align: center;
+ }
+ 
+ 

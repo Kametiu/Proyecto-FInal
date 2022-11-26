@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(44, 41, 41);
+}
+
+nav  {
+    display: flex;
+    justify-content: space-evenly;
+   
+  }
+
+.a{
+    text-decoration: none;
+    font-size: 200%;
+    color: black;
+  }

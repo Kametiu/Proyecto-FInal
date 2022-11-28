@@ -1,9 +1,11 @@
 body {
-  background-color: rgb(88, 81, 81);
+
+  background-image: url(https://i.pinimg.com/736x/58/a5/fd/58a5fd9380234b436ac13a2c24dfa6c0.jpg);
 }
 nav  {
   display: flex;
   justify-content: space-evenly;
+ background-color: blue;
  
 }
 
@@ -24,27 +26,28 @@ h1 {
 }
 
 .carrousel {
-  margin-left: 20%;
+  margin-left: 35%;
   display: flex;
-  width: 50%;
-  height: auto;
+  width: 40%;
+  height: 40%;
   overflow-x: scroll;
   scroll-snap-type: x mandatory;
-
+  justify-content: flex-start;
 
 }
-
-.carrousel div h3 {
-  
+h3{
   justify-content: center;
-  
 }
+
 .carrousel div{ 
   
   flex: 0 0 100%;
-  width: 20%;
-  object-fit: cover;
+  width: 100%;
+
   scroll-snap-align: center;
  }
  
+ .carrousel div img {
+  object-fit: fill;
+ }
  

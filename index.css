@@ -1,5 +1,4 @@
 body {
-  /* background-color: rgb(44, 41, 41); */
   background-image: url(https://png.pngtree.com/background/20211217/original/pngtree-background-elegant-black-with-gold-line-side-2-picture-image_1576336.jpg);
 }
 
@@ -9,7 +8,11 @@ nav  {
   background-color: black;
  
 }
-
+button{
+  background-color: goldenrod;
+  width: 150px;
+  height: 30px;
+}
 legend{
   color: dimgrey;
 }

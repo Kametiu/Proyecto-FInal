@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <meta charset="utf-8">
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="indexStock.css" >
         <title>Control de Stock</title>
     </head>
@@ -11,14 +13,21 @@
         
         <nav>
           <a class="a" href="index.html">Inicio</a>
-          <a class="a" href="indexFormularioStock.html">Stock</a>
-          <!-- <a class="a" href="">Punto de Ventas</a> -->
         </nav>
 
       <br><br><br><br><br>  
-
-    <footer>
-      <button type="button" onclick="mostrar()">Ingresar Productos</button>
+      <div>
+      <h2>Buscar Productos</h2>
+      <input type="text" id="codigoBarra2">
+      <button type="button" onclick="buscar()">Buscar</button>
+      <button type="reset" onclick="borrar()">Borrar</button>
+    </div>
+      <div id="resultado"></div>
+      
+      <br><br><br><br><br> 
+    
+      <footer>
+      <button type="button" onclick="mostrar1()">Ingresar Productos</button>
     </footer>  
      
     <div id="form1" style="display: none;">
@@ -38,28 +47,24 @@
             <label>Cantidad</label>
             <input type="text" id="cantidad">
             <br><br>
-            <!-- <label>Seleccione Categoria</label>
-            <select>
-              <option>bebidas</option>
-              <option>almacen</option> -->
-              
-              
-            </select>
+         
+          </select>
             <br><br>
+         
             <button type="button" onclick="ingresar()">Ingresar</button>
             <button type="reset" onclick="">Borrar</button>
-            <button type="button" onclick="ocultar()">Cerrar</button>
+            <button type="button" onclick="ocultar1()">Cerrar</button>
             
             
-            
-          </fieldset>
+         </fieldset>
           
           
           
         </form>
       </div>
-
-        <table border="auto" width="1350">
+     
+        <div>
+          <table border="auto" width="1350">
           
                
                
@@ -70,22 +75,8 @@
                <th>STOCK </th>
                <tr>
           
-               
-
-
-               
-
-             
-            
-          
-          
         </table>
-        <ol class="bebidas">
-
-        </ol>  
-
-        <ol class="almacen">
-
-        </ol>
+      </div>
+        
     </body>
     </html>

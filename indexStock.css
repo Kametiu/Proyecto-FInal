@@ -1,15 +1,35 @@
 body {
-    background-color: rgb(44, 41, 41);
+  background-image: url(https://png.pngtree.com/background/20211217/original/pngtree-background-elegant-black-with-gold-line-side-2-picture-image_1576336.jpg);
 }
-
 nav  {
     display: flex;
-    justify-content: space-evenly;
-   
-  }
+    }
 
 .a{
     text-decoration: none;
     font-size: 200%;
+    color: dimgrey;
+    justify-content: start;
+  }
+
+  .buscado{
+    color: dimgrey;;
+  }
+
+  table{
+    color: dimgrey;
+  }
+
+  form{
+    color: dimgrey;
+  }
+
+  button{
     color: black;
   }
+
+  div{
+    color: dimgrey;
+  }
+
+ 

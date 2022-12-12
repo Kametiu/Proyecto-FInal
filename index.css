@@ -1,3 +1,41 @@
+/* @media(max-width: 768px){ */
+  
+  /* body {
+    background-image: url(https://png.pngtree.com/background/20211217/original/pngtree-background-elegant-black-with-gold-line-side-2-picture-image_1576336.jpg);
+  }
+
+  .nav  {
+    display: flex;
+    background-color: black;
+  }
+
+
+  .a{
+    margin-right: 30%;
+    text-decoration: none;
+    font-size: 80%;
+    color:  dimgrey;
+  }
+
+  #iconowp{
+    width: 10%;
+
+  }
+
+    button{
+      background-color: goldenrod;
+      width: 160px;
+      height: 30px;
+    }
+
+} */
+
+
+
+
+/* @media (min-width: 768px){ */
+ 
+
 body {
   background-image: url(https://png.pngtree.com/background/20211217/original/pngtree-background-elegant-black-with-gold-line-side-2-picture-image_1576336.jpg);
 }
@@ -16,17 +54,13 @@ button{
 legend{
   color: dimgrey;
 }
-#wasap{
-  text-decoration: none;
-  font-size: 200%;
-  color:  dimgrey;
-  
-}
 
 #iconowp{
+  width: 30px;
   padding-right: auto;
 }
 .a{
+ justify-content: space-between;
   text-decoration: none;
   font-size: 200%;
   color:  dimgrey;
@@ -34,18 +68,31 @@ legend{
 
 h1{
   display: flex;
-  font-size: 700%;
+  font-size: 300%;
   color: dimgrey;
   justify-content: center;
 }
 
+section{
+  display: flex;
+  justify-content: center;
+  margin-top: 10%;
+}
+p{
+  color: dimgrey;
+  font-size:150%;
+}
 .version {
   display: flex;
-  font-size: 300%;
-  justify-content: center;
-  margin-top: 20%;
+  font-size: 200%;
+ justify-content: center;
+  margin-top: 10%;
 
 }
 
 
-label{color:  dimgrey;}
+input{
+  font-size: 50%;
+  color: black;}
+
+/* } */

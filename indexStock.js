@@ -22,6 +22,7 @@ var nuevo;
 function buscar(){
 let buscarPorCodigo = document.getElementById('codigoBarra2').value;
 var retorno = codigoBarras.indexOf(buscarPorCodigo);
+var linea = document.createElement('hr');
 
 
 if(retorno >= 0){

@@ -10,10 +10,13 @@ nav  {
  
 }
 
+legend{
+  color: dimgrey;
+}
 #wasap{
   text-decoration: none;
   font-size: 200%;
-  color: rgb(58, 56, 56);
+  color:  dimgrey;
   
 }
 
@@ -23,12 +26,12 @@ nav  {
 .a{
   text-decoration: none;
   font-size: 200%;
-  color: rgb(58, 56, 56);
+  color:  dimgrey;
 }
 
 h1{
   display: flex;
-  font-size: 350%;
+  font-size: 700%;
   color: dimgrey;
   justify-content: center;
 }
@@ -37,9 +40,9 @@ h1{
   display: flex;
   font-size: 300%;
   justify-content: center;
-  margin-top: 30%;
+  margin-top: 20%;
 
 }
 
 
-label{color: rgb(58, 56, 56);}
+label{color:  dimgrey;}
